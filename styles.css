@@ -30,6 +30,9 @@ a.active {
 }
 
 h1 {
-  font-size: 25px;
-  color:rgb(9, 4, 4)
+  color: rgb(80, 25, 25);
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
 }
