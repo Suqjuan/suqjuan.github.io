@@ -37,6 +37,31 @@ h1 {
   padding: 10px;
 }
 
-nav ul li:hover > ul {
-  display: inherit;
+nav ul ul {
+  display: none;
+}
+
+nav ul l1:hover > ul {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ba4545;
+  min-width: 100px;
+  box-shadow: 100px 8px 160px 0px rgba(0,0,0,0.2);
+}
+/*Want to make the size of the hover box bigger*/
+.dropdown:hover .dropdown-menu {
+  display: block;
+  
+}
+
+.dropdown-menu li {
+  padding: 12px 10px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #e0d1d1;
 }
