@@ -25,3 +25,6 @@ a {
   font-weight: bold;
   padding: 10px;
 }
+a.active {
+    border-bottom: 2px solid white;
+}
