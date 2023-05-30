@@ -9,11 +9,11 @@ categories: jekyll update
 
 
 ## IEEE SoutheastCon Robotics Competition
-### Talk about developing HAL
-### Include picture from competition expo and such
+#### Talk about developing HAL
+#### Include picture from competition expo and such
 
-![test](../_imgs/test.png)
-![test](../_imgs/test.png)
+![test](/docs/assets/img/test.png)
+
 
 
 
@@ -21,7 +21,7 @@ categories: jekyll update
 
 ***
 ## Scara Robot Simulation
-### show snippets of code and GUI interaction with RVIZ and links to github directory with all code
+#### show snippets of code and GUI interaction with RVIZ and links to github directory with all code
 ***
 ---
 ---
