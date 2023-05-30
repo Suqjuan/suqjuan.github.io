@@ -1,8 +1,27 @@
 ---
 layout: post
-title:  "Welcome to my Portfolio!"
+title:  "Robotics"
 date:   2023-05-29 21:26:14 -0400
 categories: jekyll update
 ---
 
-Juan Suquilanda
+# Interesting Robotics Projects
+
+
+## IEEE SoutheastCon Robotics Competition
+### Talk about developing HAL
+### Include picture from competition expo and such
+
+![test](../_imgs/test.png)
+![test](../_imgs/test.png)
+
+
+
+
+
+***
+## Scara Robot Simulation
+### show snippets of code and GUI interaction with RVIZ and links to github directory with all code
+***
+---
+---
