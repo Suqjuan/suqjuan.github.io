@@ -9,6 +9,9 @@ title:  "My Portfolio"
 <head>
   <title>Clickable Pictures</title>
   <style>
+    body{
+        background-color: #CECECE;
+    }
     .picture-container {
       position: relative;
       display: inline-block;
@@ -47,25 +50,25 @@ title:  "My Portfolio"
     <div class="picture-container">
       <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
         <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
-        <div class="text-overlay">Title 1</div>
+        <div class="text-overlay">Robotics</div>
       </a>
     </div>
     <div class="picture-container">
       <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
         <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
-        <div class="text-overlay">Title 2</div>
+        <div class="text-overlay">Embedded Systems</div>
       </a>
     </div>
     <div class="picture-container">
       <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
         <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
-        <div class="text-overlay">Title 3</div>
+        <div class="text-overlay">Circuit Design</div>
       </a>
     </div>
     <div class="picture-container">
       <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
         <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
-        <div class="text-overlay">Title 4</div>
+        <div class="text-overlay">Artifical Intelligence</div>
       </a>
     </div>
   </div>
