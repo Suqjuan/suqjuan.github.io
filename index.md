@@ -15,8 +15,8 @@ title:  "My Portfolio"
     .picture-container {
       position: relative;
       display: inline-block;
-      width: 400px;
-      height: 300px;
+      width: 350px;
+      height: 250px;
       margin: 10px;
       border-radius: 15px;
     }
