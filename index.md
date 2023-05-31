@@ -67,7 +67,7 @@ title:  "My Portfolio"
     </div>
     <div class="picture-container">
       <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
-        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
+        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/circuit.jpg');"></div>
         <div class="text-overlay">Circuit Design</div>
       </a>
     </div>
