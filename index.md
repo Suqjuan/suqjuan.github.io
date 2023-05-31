@@ -15,9 +15,10 @@ title:  "My Portfolio"
     .picture-container {
       position: relative;
       display: inline-block;
-      width: 300px;
+      width: 400px;
       height: 300px;
       margin: 10px;
+      border-radius: 15px;
     }
     .picture {
       display: block;
@@ -26,6 +27,7 @@ title:  "My Portfolio"
       background-color: #f1f1f1;
       background-size: cover;
       cursor: pointer;
+      border-radius: 15px;
     }
     .text-overlay {
       position: absolute;
