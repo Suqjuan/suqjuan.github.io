@@ -29,6 +29,10 @@ title:  "My Portfolio"
       cursor: pointer;
       border-radius: 15px;
     }
+    .picture:hover {
+      filter: blur(2px);
+      opacity: .9;
+    }
     .text-overlay {
       position: absolute;
       top: 50%;
