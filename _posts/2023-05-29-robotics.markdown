@@ -19,10 +19,13 @@ categories: jekyll update
 #### show snippets of code and GUI interaction with RVIZ and links to github directory with all code
 
 
+## Python GUI for manual Control of Each Link
+<img src= "https://suqjuan.github.io/docs/assets/img/scaraGUI.png" width="100" height="100"/>
+
 
 ## Before and after Clicking Point
-<img src= "https://suqjuan.github.io/docs/assets/img/test.png" width="100" height="100"/>
-<img src= "https://suqjuan.github.io/docs/assets/img/test.png"  width="100" height="100" style="margin-left:100px;"/>
+<img src= "https://suqjuan.github.io/docs/assets/img/scaraBefore.png" width="100" height="100"/>
+<img src= "https://suqjuan.github.io/docs/assets/img/scaraAfter.png"  width="100" height="100" style="margin-left:100px;"/>
 
 ***
 
