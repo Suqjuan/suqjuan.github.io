@@ -5,6 +5,69 @@
 layout: home
 title:  "My Portfolio"
 ---
-
-
-<img src= "https://suqjuan.github.io/docs/assets/img/scaraGUI.png"/>
+<html>
+<head>
+  <title>Clickable Pictures</title>
+  <style>
+    .picture-container {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+    }
+    .picture {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #f1f1f1;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="picture-container">
+      <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
+        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
+        <div class="text-overlay">Title 1</div>
+      </a>
+    </div>
+    <div class="picture-container">
+      <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
+        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
+        <div class="text-overlay">Title 2</div>
+      </a>
+    </div>
+    <div class="picture-container">
+      <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
+        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
+        <div class="text-overlay">Title 3</div>
+      </a>
+    </div>
+    <div class="picture-container">
+      <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
+        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
+        <div class="text-overlay">Title 4</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
