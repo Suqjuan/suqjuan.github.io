@@ -12,19 +12,17 @@ categories: jekyll update
 #### Talk about developing HAL
 #### Include picture from competition expo and such
 
-</br>
-</br>
+![test](/docs/assets/img/test.png)
 
 ***
-
 ## Scara Robot Simulation
 #### show snippets of code and GUI interaction with RVIZ and links to github directory with all code
 
 
 
 ## Before and after Clicking Point
-<img src= "/home/jsuqu/git/suqjuan.github.io/docs/assets/img/test.png" width="100" height="100"/>
-<img src= "/home/jsuqu/git/suqjuan.github.io/docs/assets/img/test.png" width="100" height="100" style="margin-left:100px;"/>
+<img src= "https://suqjuan.github.io/docs/assets/img/test.png" width="100" height="100"/>
+<img src= "https://suqjuan.github.io/docs/assets/img/test.png"  width="100" height="100" style="margin-left:100px;"/>
 
 ***
 
