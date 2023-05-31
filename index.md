@@ -34,7 +34,7 @@ title:  "My Portfolio"
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: white;
+      color: #CECECE;
       font-size: 24px;
       font-weight: bold;
       text-align: center;
@@ -51,7 +51,7 @@ title:  "My Portfolio"
   <div class="container">
     <div class="picture-container">
       <a href="https://suqjuan.github.io/jekyll/update/2023/05/30/robotics.html">
-        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/scaraBefore.png');"></div>
+        <div class="picture" style="background-image: url('https://suqjuan.github.io/docs/assets/img/robot.JPG');"></div>
         <div class="text-overlay">Robotics</div>
       </a>
     </div>
