@@ -5,8 +5,6 @@ date:   2023-05-29 21:26:14 -0400
 categories: jekyll update
 ---
 
-# Interesting Robotics Projects
-
 ## Table of Conents
 1. [IEEE SoutheastCon Robotics Competition](#item-1)
 2. [Scara Robot Simulation](#item-2)
