@@ -10,7 +10,7 @@ title:  "My Portfolio"
   <title>Clickable Pictures</title>
   <style>
     body{
-        background-color: #CECECE;
+        background-color: #D5D8DC;
     }
     .picture-container {
       position: relative;
