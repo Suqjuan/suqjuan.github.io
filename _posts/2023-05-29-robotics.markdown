@@ -23,7 +23,7 @@ categories: jekyll update
 ## Python GUI for manual Control of Each Link
 The followng GUI is prompted after running the custom launch file created for this part of the project:
 
-```roslaunch scara_gui scara_gui.launch```
+```$ roslaunch scara_gui scara_gui.launch```
 
 <img src= "https://suqjuan.github.io/docs/assets/img/scaraGUI.png"/>
 
@@ -31,6 +31,17 @@ The GUI enables the user to manually control each of the links individually usin
 
 ## Clicked Point Path Generation
 While the GUI I created is a great way to test the understanding of robotics principles, I wanted to take it a step further and implement an algorith which would not require the user to manually input values for each of the joints. Instead something more practical would be to implement an algorithm that enforces the inverse kinematics of the robot and calculates and updates joint parameters automatically. So this is exactly what I did. I started with a python program where a user can input a desired x,y,z cooridinate relative to the base frame in the program, but soon realized that this is not practical. Instead I took advantage of the ability to click on points in RVIZ, and publish the coordinates through a ROS message to my Python program instead of having to edit, run, edit, run each time I wanted to visualize a different end effector position. Thus, implemented the support for clicked points allowed for a continuous visual and form of validation of the inverse kinematics for the robot.
+
+The followng program will run after executing the following commands:
+
+First the Python program that handles all calculation and published updated joint parameters must be run using the following command:
+
+``` $ rosrun robotics scara_FK.py```
+
+Then the the custom launch file must be ran using:
+
+``` $ roslaunch robotics scara.launch```
+
 ## Before Clicked Point 
 <img src= "https://suqjuan.github.io/docs/assets/img/scaraBefore.png" />
 
