@@ -5,3 +5,6 @@
 layout: home
 title:  "My Portfolio"
 ---
+
+
+<img src= "https://suqjuan.github.io/docs/assets/img/scaraGUI.png"/>

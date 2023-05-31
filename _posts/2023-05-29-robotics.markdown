@@ -23,7 +23,7 @@ categories: jekyll update
 ## Python GUI for manual Control of Each Link
 The followng GUI is prompted after running the custom launch file created for this part of the project:
 
-```$ roslaunch scara_gui scara_gui.launch```
+```$ roslaunch robotics scara_gui.launch```
 
 <img src= "https://suqjuan.github.io/docs/assets/img/scaraGUI.png"/>
 

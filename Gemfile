@@ -15,7 +15,7 @@ gem "jekyll-remote-theme"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 288", group: :jekyll_plugins
+gem "github-pages", "~> 228", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -31,4 +31,10 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
+
+gem "minima"
+
+gem 'sass', '~> 3.7', '>= 3.7.4'
+
+gem 'jekyll-sass-converter', '~> 1.5', '>= 1.5.2'
 
