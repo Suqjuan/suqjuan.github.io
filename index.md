@@ -29,20 +29,20 @@ title:  "My Portfolio"
       cursor: pointer;
       border-radius: 15px;
     }
-    .picture:hover {
-      filter: blur(2px);
-      opacity: .9;
-    }
     .text-overlay {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: #CECECE;
-      font-size: 24px;
+      color: WHITE;
+      font-size: 39px;
       font-weight: bold;
       text-align: center;
       width: 100%;
+    }
+     .picture:hover {
+      filter: blur(2px);
+      opacity: .9;
     }
     .container {
       display: flex;
