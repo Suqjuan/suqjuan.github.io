@@ -19,18 +19,27 @@ categories: jekyll update
 <a id="item-1"></a>
 ## IEEE SoutheastCon Robotics Competition
 
-
-<img src= "https://suqjuan.github.io/docs/assets/img/actionShot.jpg" />
+<img src= "https://suqjuan.github.io/docs/assets/img/WorkingActionShot.jpg" />
 
 <a id="sub1-item-1"></a>
 ### Project Overview
 
-The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully autonomous robot to compete with 29 other universities. In preperation for competition I and 13 others worked tirelessly on this projects for 2 semesters to implement a robot that is able to distinguish between 5 different types of objects, and navigate to specific location after completing tasks around the gameboard. Through our efforts and sleepless night we were able to pull through and win 2nd place!
-
-
+The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully autonomous robot to compete with 29 other universities. In preperation for competition I and 13 others worked tirelessly for 2 semesters with a goal of designing & implementing a robot that is capable of distinguishing between 5 different types of objects, and navigating to specific locations around the gameboard after completing tasks. Through our efforts and sleepless night we were able to pull through and win 2nd place!
 
 <a id="sub1-item-2"></a>
 ### My Contribution
+One area in which I focused my attention was the Robotic Operating System (ROS), a widely
+used platform for robotic software development. Through my own efforts, I gained a deep
+understanding of ROS and was able develop the back-end automation for our robot. My API
+handled requests, processed them accordingly and then sent out a response to said request. This
+allowed us to integrate different sensors and hardware into our robot software architecture,
+providing a powerful tool for controlling and simulating its performance in simulation software
+such as Gazebo. Through enabling the simulation of the robot, we were able to test different
+strategies and algorithms, until performance was satisfactory and ready to run on the robot. I was
+also able to lay down a framework for our programs, allowing my teammates to work
+collaboratively and efficiently towards our milestones. Thanks to these efforts, we were able to
+create a highly competitive robot that placed 2nd among 29 other universities.
+
 
 <a id="sub1-item-3"></a>
 ### Competition Results
