@@ -8,7 +8,7 @@ title:  "My Portfolio - Site Under Construction"
 <html>
 <head>
     <title>Clickable Pictures</title>
-    <link rel = "styleshee" href=>
+    <link rel = "stylesheet" href="https://suqjuan.github.io/docs/assets/css/styles.css">
 </head>
 <body>
   <div class="container">
