@@ -19,7 +19,7 @@ categories: jekyll update
 <a id="item-1"></a>
 ## IEEE SoutheastCon Robotics Competition
 
-<img src= "https://suqjuan.github.io/docs/assets/img/WorkingActionShot.jpg" />
+<img src= "https://suqjuan.github.io/docs/assets/img/workingActionShot.jpg" />
 
 <a id="sub1-item-1"></a>
 ### Project Overview
