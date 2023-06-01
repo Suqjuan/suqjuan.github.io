@@ -9,7 +9,9 @@ categories: jekyll update
 1. [IEEE SoutheastCon Robotics Competition](#item-1)
     1. [Project Overview](#sub1-item-1)
     2. [My Contribution](#sub1-item-2)
-    3. [Competition Results](#sub2-item-3)
+    3. [Simulation](#sub1-item3)
+    4. [Robot Life-Cycle](#sub1-item-4)
+    5. [Competition Results](#sub2-item-5)
 2. [Scara Robot Simulation](#item-2)
     1. [Python GUI for Manual Control](#sub2-item-1)
     2. [Clicked Point Path Generation](#sub2-item-2)
@@ -28,17 +30,18 @@ The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully
 
 <a id="sub1-item-2"></a>
 ### My Contribution
-One area in which I focused my attention was the Robotic Operating System (ROS), a widely
-used platform for robotic software development. Through my own efforts, I gained a deep
-understanding of ROS and was able develop the back-end automation for our robot. My API
-handled requests, processed them accordingly and then sent out a response to said request. This
-allowed us to integrate different sensors and hardware into our robot software architecture,
-providing a powerful tool for controlling and simulating its performance in simulation software
-such as Gazebo. Through enabling the simulation of the robot, we were able to test different
-strategies and algorithms, until performance was satisfactory and ready to run on the robot. I was
-also able to lay down a framework for our programs, allowing my teammates to work
-collaboratively and efficiently towards our milestones. Thanks to these efforts, we were able to
-create a highly competitive robot that placed 2nd among 29 other universities.
+One area in which I focused my attention was the Robotic Operating System (ROS), a widely used platform for robotic software development. Through my own efforts, I gained a deep understanding of ROS and was able develop the back-end automation for our robot which allowed for inter-process communication between our C++ & Python programs. My API handled command requests, processed them accordingly and sent out appropriate commands to our manipulators, such as our arm. The API also handled data requests from our sensors such that our algorithms can make the best informed decisions. This ultimately allowed us to integrate different sensors and hardware into our robot software architecture, providing a powerful tool for controlling and simulating its performance in software such as Gazebo just by changing one parameter in code. Through enabling the simulation of the robot, we were able to test different strategies and algorithms, until performance was satisfactory and ready to run on the robot.
+
+### Simulations
+Talk about developing URDF in XML
+
+Part of running simulations is having a robot model to visualize. This requires an understanding of URDF and writing code in XML. XML is a skill that I did not come into this project having, therefore while learning how to make a custom model I was able to import a model from this [reference repo] and begin testing algorithms.
+
+<img src= "https://suqjuan.github.io/docs/assets/img/gazeboSim.jpg"/>
+
+###### Nexus Robot Model Spawned in Custom Gameboard Environment
+
+
 
 
 <a id="sub1-item-3"></a>
@@ -51,10 +54,6 @@ create a highly competitive robot that placed 2nd among 29 other universities.
 2. Picture and breif description of team
 3. What was my contribution
 4. Competition
-
-Include picture from competition expo and such
-
-![test](/docs/assets/img/test.png)
 
 ***
 
@@ -100,6 +99,9 @@ Clicked points in RVIZ represented by pink spheres. In the above visualy we can 
 
 ***
 [group repo]:https://github.com/ronniecm/ieee-robotics-2023-code
+[reference repo]:https://github.com/RBinsonB/nexus_4wd_mecanum_simulator
 [my repo]:https://github.com/Suqjuan/robotics
+
+
 
 
