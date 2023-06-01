@@ -8,10 +8,11 @@ categories: jekyll update
 ## Table of Conents
 1. [IEEE SoutheastCon Robotics Competition](#item-1)
     1. [Project Overview](#sub1-item-1)
-    2. [My Contribution](#sub1-item-2)
-    3. [Simulation](#sub1-item3)
-    4. [Robot Life-Cycle](#sub1-item-4)
-    5. [Competition Results](#sub2-item-5)
+    2. [Competition Objective](#sub1-item-2)
+    2. [My Contribution](#sub1-item-3)
+    3. [Simulation](#sub1-item4)
+    4. [Robot Life-Cycle](#sub1-item-5)
+    5. [Competition Results](#sub2-item-6)
 2. [Scara Robot Simulation](#item-2)
     1. [Python GUI for Manual Control](#sub2-item-1)
     2. [Clicked Point Path Generation](#sub2-item-2)
@@ -24,13 +25,38 @@ categories: jekyll update
 <img src= "https://suqjuan.github.io/docs/assets/img/workingActionShot.jpg" />
 
 <a id="sub1-item-1"></a>
-### Project Overview
+### Project Summary
 
 The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully autonomous robot to compete with 29 other universities. In preperation for competition I and 13 others worked tirelessly for 2 semesters with a goal of designing & implementing a robot that is capable of distinguishing between 5 different types of objects, and navigating to specific locations around the gameboard after completing tasks. Through our efforts and sleepless night we were able to pull through and win 2nd place!
 
+<a id="sub1-item-2"></a>
+### Competition Objective
+#### Gameboard
+<img src= "https://suqjuan.github.io/docs/assets/img/expoRobotCandid.JPG" width= "300" height = auto/>
+
+#### Game Items:
+- 3 Green Pedestals
+- 3 White Pedestals
+- 1 Red Pedestals
+- 9 Yellow Ducks
+- 1 Pink Duck
+
+The object of the competition is to recover the game items that are randomly scattered around the game board and build structures like the one bellow and place them within the white rings in less than 3 minutes.
+
+
+In total there are 3 structures. 1 structure requires 3 pedestals and the remaining two require only two pedestals. The complexity in this problem lies in the fact that the structures must follow as specific color sequence to earn the max amount of points. For a three pedestal structure the color sequence starting from the bottom is white, green, and red as shown below
+
+
+<img src= "https://suqjuan.github.io/docs/assets/img/compGoal.jpg" width= "200" height = auto/>
+
+For the 2 pedestal structure the the same follows only without the red pedestal on top.
+
+Finally, to earn even more pointsm, teams can place rubber ducks on top of the structures .
+
+
 ## Put picture of requiments here
 
-<a id="sub1-item-2"></a>
+<a id="sub1-item-3"></a>
 ### My Contribution
 One area in which I focused my attention was the Robotic Operating System (ROS), a widely used platform for robotic software development. Through my own efforts, I gained a deep understanding of ROS and was able develop the back-end automation for our robot which allowed for inter-process communication between our C++ & Python programs. My API handled command requests, processed them accordingly and sent out appropriate commands to our manipulators, such as our arm. The API also handled data requests from our sensors such that our algorithms can make the best informed decisions. This ultimately allowed us to integrate different sensors and hardware into our robot software architecture, providing a powerful tool for controlling and simulating its performance in software such as Gazebo just by changing one parameter in code. Through enabling the simulation of the robot, we were able to test different strategies and algorithms, until performance was satisfactory and ready to run on the robot.
 
