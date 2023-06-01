@@ -19,12 +19,13 @@ categories: jekyll update
 <a id="item-1"></a>
 ## IEEE SoutheastCon Robotics Competition
 
-<a id="sub1-item-1"></a>
-### Project Overview
 
 <img src= "https://suqjuan.github.io/docs/assets/img/actionShot.jpg" />
 
-The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully autonomous robot to compete with 29 other universities. As my capstone pro
+<a id="sub1-item-1"></a>
+### Project Overview
+
+The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully autonomous robot to compete with 29 other universities. In preperation for competition I and 13 others worked tirelessly on this projects for 2 semesters to implement a robot that is able to distinguish between 5 different types of objects, and navigate to specific location after completing tasks around the gameboard. Through our efforts and sleepless night we were able to pull through and win 2nd place!
 
 
 
