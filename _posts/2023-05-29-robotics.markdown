@@ -41,7 +41,7 @@ The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully
 - 9 Yellow Ducks
 - 1 Pink Duck
 
-The object of the competition is to recover the game items that are randomly scattered around the game board and build structures like the one bellow and place them within the white rings in less than 3 minutes.
+The objective of the competition is to recover the game items that are randomly scattered around the game board and build structures like the ones in the gameboard image within the white rings before a three minute timer expires.
 
 
 In total there are 3 structures. 1 structure requires 3 pedestals and the remaining two require only two pedestals. The complexity in this problem lies in the fact that the structures must follow as specific color sequence to earn the max amount of points. For a three pedestal structure the color sequence starting from the bottom is white, green, and red as shown below
@@ -51,7 +51,7 @@ In total there are 3 structures. 1 structure requires 3 pedestals and the remain
 
 For the 2 pedestal structure the the same follows only without the red pedestal on top.
 
-Finally, to earn even more pointsm, teams can place rubber ducks on top of the structures .
+Finally, to earn even more points, teams can place rubber ducks on top of the structures .
 
 
 ## Put picture of requiments here
