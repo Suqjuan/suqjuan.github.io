@@ -32,12 +32,14 @@ The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully
 ### My Contribution
 One area in which I focused my attention was the Robotic Operating System (ROS), a widely used platform for robotic software development. Through my own efforts, I gained a deep understanding of ROS and was able develop the back-end automation for our robot which allowed for inter-process communication between our C++ & Python programs. My API handled command requests, processed them accordingly and sent out appropriate commands to our manipulators, such as our arm. The API also handled data requests from our sensors such that our algorithms can make the best informed decisions. This ultimately allowed us to integrate different sensors and hardware into our robot software architecture, providing a powerful tool for controlling and simulating its performance in software such as Gazebo just by changing one parameter in code. Through enabling the simulation of the robot, we were able to test different strategies and algorithms, until performance was satisfactory and ready to run on the robot.
 
+## TALK ABOUT SORTING ALGO
+
 ### Simulations
 Talk about developing URDF in XML
 
 Part of running simulations is having a robot model to visualize. This requires an understanding of URDF and writing code in XML. XML is a skill that I did not come into this project having, therefore while learning how to make a custom model I was able to import a model from this [reference repo] and begin testing algorithms.
 
-<img src= "https://suqjuan.github.io/docs/assets/img/gazeboSim.jpg"/>
+<img src= "https://suqjuan.github.io/docs/assets/img/gazeboSim.JPG"/>
 
 ###### Nexus Robot Model Spawned in Custom Gameboard Environment
 
