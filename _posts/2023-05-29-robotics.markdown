@@ -50,21 +50,11 @@ For the 2 pedestal structure the the same follows only without the red pedestal 
 
 <html>
 <head>
-    <style>
-        .image-container {
-        display: flex;
-        justify-content: center;
-        }
-        /*sets image dimensions*/
-        .image-wrapper{
-        max-width: 100%;
-        height: auto;
-        margin:10px
-        }
-    </style>
+    <title>Clickable Pictures</title>
+    <link rel = "stylesheet" href="https://suqjuan.github.io/docs/assets/css/styles.css">
 </head>
 <body>
-    <div class="image-container">
+    <div class="container">
         <div class="image-wrapper">
             <img src= "https://suqjuan.github.io/docs/assets/img/threeStack.jpg" width="200"/>
         </div>
@@ -74,7 +64,7 @@ For the 2 pedestal structure the the same follows only without the red pedestal 
     </div>
 </body>
 </html>
-Finally, to earn even more points, teams can place rubber ducks on top of the structures .
+Finally, to earn even more points, teams can place rubber ducks on top of the structures.
 
 ## Put picture of requiments here
 
@@ -85,7 +75,6 @@ One area in which I focused my attention was the Robotic Operating System (ROS),
 ## TALK ABOUT SORTING ALGO
 
 ### Simulations
-Talk about developing URDF in XML
 
 Part of running simulations is having a robot model to visualize. This requires an understanding of URDF and writing code in XML. XML is a skill that I did not come into this project having, therefore while learning how to make a custom model I was able to import a model from this [reference repo] and begin testing algorithms.
 

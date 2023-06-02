@@ -47,4 +47,8 @@ body{
   3 params if for top horizontal and bottom padding
   4 params is for top right bottom and left padding
 */
-
+.image-wrapper{
+  max-width: 100%;
+  height: auto;
+  margin:10px
+  }
