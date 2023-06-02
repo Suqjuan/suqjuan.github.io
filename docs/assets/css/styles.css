@@ -1,6 +1,7 @@
 body{
     background-color: #D5D8DC;
 }
+/*This for index.html*/
 .picture-container {
   position: relative;
   display: inline-block;
@@ -38,3 +39,12 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
+/* flex:1 allows the flex items to shrink and grow */
+/*padding allows the flex items to have space between them
+  padding can take up to 4 params.
+  1 param is for uniform padding
+  2 params if for vertical and horizontal padding
+  3 params if for top horizontal and bottom padding
+  4 params is for top right bottom and left padding
+*/
+
