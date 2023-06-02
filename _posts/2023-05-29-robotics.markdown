@@ -4,23 +4,6 @@ title:  "Robotics"
 date:   2023-05-29 21:26:14 -0400
 categories: jekyll update
 ---
-<html>
-<head>
-    <style>
-        .image-container {
-        display: flex;
-        justify-content: center;
-        }
-        /*sets image dimensions*/
-        .image-wrapper{
-        max-width: 100%;
-        height: auto;
-        margin:10px
-        }
-    </style>
-</head>
-
-
 ## Table of Conents
 1. [IEEE SoutheastCon Robotics Competition](#item-1)
     1. [Project Overview](#sub1-item-1)
@@ -64,6 +47,22 @@ The objective of the competition is to recover the game items that are randomly 
 In total there are 3 structures. 1 structure requires 3 pedestals and the remaining two require only two pedestals. The complexity in this problem lies in the fact that the structures must follow as specific color sequence to earn the max amount of points. For a three pedestal structure the color sequence starting from the bottom is white, green, and red as shown below.
 
 For the 2 pedestal structure the the same follows only without the red pedestal on top.
+
+<html>
+<head>
+    <style>
+        .image-container {
+        display: flex;
+        justify-content: center;
+        }
+        /*sets image dimensions*/
+        .image-wrapper{
+        max-width: 100%;
+        height: auto;
+        margin:10px
+        }
+    </style>
+</head>
 <body>
     <div class="image-container">
         <div class="image-wrapper">
