@@ -19,7 +19,7 @@ categories: jekyll update
         }
     </style>
 </head>
-<body>
+
 
 ## Table of Conents
 1. [IEEE SoutheastCon Robotics Competition](#item-1)
@@ -64,17 +64,18 @@ The objective of the competition is to recover the game items that are randomly 
 In total there are 3 structures. 1 structure requires 3 pedestals and the remaining two require only two pedestals. The complexity in this problem lies in the fact that the structures must follow as specific color sequence to earn the max amount of points. For a three pedestal structure the color sequence starting from the bottom is white, green, and red as shown below.
 
 For the 2 pedestal structure the the same follows only without the red pedestal on top.
-
-<div class="image-container">
-    <div class="image-wrapper">
-        <img src= "https://suqjuan.github.io/docs/assets/img/threeStack.jpg" width="200"/>
+<body>
+    <div class="image-container">
+        <div class="image-wrapper">
+            <img src= "https://suqjuan.github.io/docs/assets/img/threeStack.jpg" width="200"/>
+        </div>
+        <div class="image-wrapper">
+            <img src= "https://suqjuan.github.io/docs/assets/img/twoStack.jpg" width="200"/>
+        </div>
     </div>
-    <div class="image-wrapper">
-        <img src= "https://suqjuan.github.io/docs/assets/img/twoStack.jpg" width="200"/>
-    </div>
-</div>
+</body>
+</html>
 Finally, to earn even more points, teams can place rubber ducks on top of the structures .
-
 
 ## Put picture of requiments here
 
@@ -153,10 +154,6 @@ Clicked points in RVIZ represented by pink spheres. In the above visualy we can 
 [group repo]:https://github.com/ronniecm/ieee-robotics-2023-code
 [reference repo]:https://github.com/RBinsonB/nexus_4wd_mecanum_simulator
 [my repo]:https://github.com/Suqjuan/robotics
-
-</body>
-</html>
-
 
 
 
