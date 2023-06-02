@@ -4,7 +4,6 @@ title:  "Robotics"
 date:   2023-05-29 21:26:14 -0400
 categories: jekyll update
 ---
-
 <html>
 <head>
     <style>
@@ -20,6 +19,7 @@ categories: jekyll update
         }
     </style>
 </head>
+<body>
 
 ## Table of Conents
 1. [IEEE SoutheastCon Robotics Competition](#item-1)
@@ -52,9 +52,7 @@ The SoutheastCon Competition entailed traveling to Orlando, Florida with a fully
 <img src= "https://suqjuan.github.io/docs/assets/img/expoRobotCandid.JPG" width= "325" height = auto/>
 
 #### Game Items:
-- 3 Green Pedestalsone bellow and place them within the white rings in less than 3 minutes.
-
-In total there are 3 structures. 1 structure requires
+- 3 Green Pedestals
 - 3 White Pedestals
 - 1 Red Pedestals
 - 9 Yellow Ducks
@@ -67,8 +65,6 @@ In total there are 3 structures. 1 structure requires 3 pedestals and the remain
 
 For the 2 pedestal structure the the same follows only without the red pedestal on top.
 
-
-
 <div class="image-container">
     <div class="image-wrapper">
         <img src= "https://suqjuan.github.io/docs/assets/img/threeStack.jpg" width="200"/>
@@ -77,14 +73,6 @@ For the 2 pedestal structure the the same follows only without the red pedestal 
         <img src= "https://suqjuan.github.io/docs/assets/img/twoStack.jpg" width="200"/>
     </div>
 </div>
-
-
-
-
-
-
-
-
 Finally, to earn even more points, teams can place rubber ducks on top of the structures .
 
 
@@ -165,6 +153,9 @@ Clicked points in RVIZ represented by pink spheres. In the above visualy we can 
 [group repo]:https://github.com/ronniecm/ieee-robotics-2023-code
 [reference repo]:https://github.com/RBinsonB/nexus_4wd_mecanum_simulator
 [my repo]:https://github.com/Suqjuan/robotics
+
+</body>
+</html>
 
 
 
